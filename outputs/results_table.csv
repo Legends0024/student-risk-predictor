@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1 Score,ROC-AUC,5-Fold CV
+Logistic Regression,96.00%,96.41%,99.47%,97.92%,98.32%,95.20%
+Decision Tree,100.00%,100.00%,100.00%,100.00%,100.00%,99.80%
+Random Forest,96.50%,96.43%,100.00%,98.18%,99.37%,96.00%

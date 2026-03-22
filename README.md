@@ -88,12 +88,5 @@ student-risk-predictor/
 3. **Inference**: The `RandomForestClassifier` outputs a trajectory probability. An overarching rule applies: **Any subject score < 33 OR overall percentage < 33% = immediate At-Risk classification**.
 4. **SHAP Analysis**: SHAP isolates the top contributing features to explain the model's decision-making process.
 
----
 
-## 🎓 About
-
-Developed by **B.Tech 4th Semester** students at **IP University, India**.
-*Subject: Machine Learning & Artificial Intelligence*
-
----
 *Feel free to star ⭐ this repository if you find it helpful!*

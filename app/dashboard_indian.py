@@ -36,7 +36,7 @@ def get_explainer(_m):
 model = load_model()
 
 st.markdown('<div class="big-title">🎓 Student At-Risk Early Warning System</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Indian School Context | CBSE/ICSE/State Board | IP University B.Tech Project</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Indian School Context | CBSE/ICSE/State Board | Personal Project</div>', unsafe_allow_html=True)
 
 if model is None:
     st.error("Model not found! Make sure outputs/models/random_forest.pkl exists.")
@@ -283,7 +283,7 @@ with st.expander("ℹ️ About This System"):
     **Model**: Random Forest (100 trees) | **Dataset**: 1000 Indian students (synthetic, CBSE context)
     **Pass Rule**: Any subject < 33 OR overall < 33% = At-Risk (CBSE standard)
     **Explainability**: SHAP | **Deployed**: https://student-risk-predictor-2.onrender.com
-    **Project**: B.Tech 4th Sem | IP University | ML + AI Subject
+    **Project**: Personal Project | ML + AI Focus
     """)
 
-st.markdown('<div class="footer">Student At-Risk Early Warning System | IP University B.Tech Project | CBSE/ICSE/State Board | Class 9–12</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Student At-Risk Early Warning System | Personal Project | CBSE/ICSE/State Board | Class 9–12</div>', unsafe_allow_html=True)
